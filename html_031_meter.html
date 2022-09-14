@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html_031_meter.html</title>
+  </head>
+  <body>
+    <!--
+        <meter>
+        1. 그래프를 나타날 때 사용하며, 일반적으로 최소, 최대값을 설정하며
+           초기 수치는 value 값으로 설정한다.
+        2. 수치를 나타낼 때는 min 과 max 로
+           퍼센트를 나타낼 때는 low 와 high 로 표현한다.
+        3. <meter></meter> 사이의 값은 표시되지 않는다.
+           수치는 DB에서 가져와서 넣어야 한다.
+    -->
+
+    <h3>학습량 그래프</h3>
+    <span>송중기:</span
+    ><meter min="0" max="100" value="60">60 out of 100</meter>
+    <br />
+    <span>진여구:</span>
+    <meter low="0.3" high="0.5" value="0.22">22%</meter>
+  </body>
+</html>
